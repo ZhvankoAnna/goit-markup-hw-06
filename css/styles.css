@@ -663,7 +663,7 @@ body {
   color: var(--light-txt-bg-color);
   background-color: var(--accent-color);
 
-  transform: background-color var(--transition-options);
+  transition: background-color var(--transition-options);
 }
 
 .mailing-form-btn:hover,
@@ -730,6 +730,10 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+
+.modal-btn-icon {
+  transition: fill var(--transition-options);
 }
 
 .modal-btn:hover .modal-btn-icon,
